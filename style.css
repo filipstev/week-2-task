@@ -119,6 +119,12 @@ body {
   color: hsl(0, 0%, 59%);
 }
 
+.span-age {
+  font-weight: 400 !important;
+  color: hsl(0, 0%, 59%);
+  margin-left: 0.3rem;
+}
+
 @media only screen and (max-width: 1440px) {
   .top-circle {
     top: -50%;
