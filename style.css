@@ -143,8 +143,8 @@ body {
 
 @media only screen and (max-width: 425px) {
   .top-circle {
-    transform: scale(0.7);
-    left: -125%;
+    transform: scale(0.8);
+    left: -140%;
     top: -55%;
   }
 
@@ -154,8 +154,8 @@ body {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 375px) {
   .top-circle {
-    left: -140%;
+    left: -163%;
   }
 }
