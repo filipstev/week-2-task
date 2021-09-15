@@ -141,6 +141,66 @@ body {
   }
 }
 
+@media only screen and (min-width: 1024px) and (max-height: 780px) {
+  .top-circle {
+    top: -60%;
+  }
+
+  .bottom-circle {
+    left: 40%;
+    top: 40%;
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 720px) {
+  .top-circle {
+    top: -70%;
+  }
+
+  .bottom-circle {
+    left: 40%;
+    top: 40%;
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 650px) {
+  .top-circle {
+    top: -85%;
+  }
+
+  .bottom-circle {
+    left: 40%;
+    top: 40%;
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 580px) {
+  .top-circle {
+    top: -95%;
+  }
+
+  .bottom-circle {
+    left: 40%;
+    top: 40%;
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 520px) {
+  .top-circle {
+    top: -105%;
+  }
+
+  .bottom-circle {
+    left: 40%;
+    top: 40%;
+    transform: scale(0.9);
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .top-circle {
     left: -85%;
@@ -168,7 +228,7 @@ body {
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 841px) {
   .top-circle {
     top: -50%;
   }
@@ -256,5 +316,12 @@ body {
 
   .card-middle-content {
     margin-top: -2rem;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .top-circle {
+    transform: scale(1.2);
   }
 }
