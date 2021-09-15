@@ -43,7 +43,7 @@ body {
 }
 
 .card {
-  width: 350px;
+  width: 330px;
   border-radius: 15px;
   overflow: hidden;
   display: flex;
@@ -150,18 +150,111 @@ body {
 @media only screen and (max-width: 425px) {
   .top-circle {
     transform: scale(0.8);
-    left: -140%;
-    top: -55%;
+    left: -155%;
+    top: -67%;
   }
 
   .bottom-circle {
-    left: 50%;
-    top: 50%;
+    left: 30%;
+    top: 35%;
+    transform: scale(0.7);
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .top-circle {
-    left: -163%;
+    left: -175%;
+    top: -75%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .top-circle {
+    top: -50%;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .top-circle {
+    left: -180%;
+    top: -65%;
+  }
+  .bottom-circle {
+    transform: scale(0.7);
+    top: 35%;
+    left: 33%;
+  }
+
+  .card {
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .top-circle {
+    left: -180%;
+    top: -80%;
+    transform: scale(0.7);
+  }
+
+  .bottom-circle {
+    transform: scale(0.7);
+    top: 30%;
+    left: 35%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .card {
+    height: 300px;
+  }
+  .card-middle-content {
+    margin-top: -3rem !important;
+    padding-bottom: 1rem;
+  }
+
+  .top-circle {
+    top: -100%;
+    transform: scale(0.5);
+    left: -70%;
+  }
+
+  .bottom-circle {
+    top: 30%;
+    transform: scale(0.5);
+    left: 40%;
+  }
+}
+
+/* Landscape */
+@media screen and (min-device-width: 320px) and (max-device-height: 640px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .card {
+    height: 330px;
+  }
+  .top-circle {
+    transform: scale(0.5);
+    top: -80%;
+    left: -70%;
+  }
+  .bottom-circle {
+    transform: scale(0.6);
+    top: 30%;
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .top-circle {
+    transform: scale(0.5);
+    top: -55%;
+    left: -150%;
+  }
+}
+
+@media only screen and (max-height: 375px) {
+  .top-circle {
+  }
+
+  .card-middle-content {
+    margin-top: -2rem;
   }
 }
